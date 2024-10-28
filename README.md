@@ -14,11 +14,11 @@ docker build -t messaging-service .
 
 ### Run the docker image
 ```bash
-docker run -p 9095:8080 --name messaging-service --network freelance-platform messaging-service
+docker run -p 9094:8080 --name messaging-service --network freelance-platform messaging-service
 ```
 
 ### Test the service
 ```bash
-curl http://localhost:9095/messaging/hello
+curl http://localhost:9094/hello
 ```
 
